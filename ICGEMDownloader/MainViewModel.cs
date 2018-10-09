@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
 using System.Windows.Data;
 using System.Windows.Input;
-using Dragablz.Converters;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
-using MaterialDesignThemes.Wpf;
 using Nito.AsyncEx;
 
 namespace ICGEMDownloader
