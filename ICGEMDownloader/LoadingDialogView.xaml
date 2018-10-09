@@ -1,0 +1,12 @@
+﻿<UserControl x:Class="ICGEMDownloader.LoadingDialogView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ICGEMDownloader"
+             mc:Ignorable="d">
+    <StackPanel Margin="16">
+        <ProgressBar Style="{StaticResource MaterialDesignCircularProgressBar}" Margin="0 8" Width="32" Height="32" IsIndeterminate="True"/>
+        <TextBlock Style="{StaticResource MaterialDesignTitleTextBlock}">Loading Models</TextBlock>
+    </StackPanel>
+</UserControl>
